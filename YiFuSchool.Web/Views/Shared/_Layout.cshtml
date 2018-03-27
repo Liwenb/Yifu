@@ -1,0 +1,407 @@
+﻿@{
+    var staticUrl = YiFuSchool.Web.Core.WebConfig.DefaultSiteUrl;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>逸夫学校 - @ViewBag.Title</title>
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+
+
+    <link rel="icon" href="../../images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../images/logo.png">
+    <link rel="Bookmark" href="../../images/logo.png">
+    <link rel="SHORTCUT ICON" href="../../images/logo.png" />
+    <style>
+        section#about .about-item:hover h3 {
+            color: #029274;
+        }
+
+        .services-item {
+            background: transparent;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+
+        /*.services-item :hover {
+                background: #029274;
+            }*/
+
+        .wrap-img {
+            /*color: #029274;*/
+            /*padding-top: 30px;*/
+            /*border-radius: 50%;*/
+            /*height: 158px;
+                width: 158px;*/
+            /*margin-bottom: 40px;*/
+            /*display: inline-block;*/
+        }
+
+            .wrap-img :hover {
+                cursor: pointer;
+            }
+
+            .wrap-img h3 {
+                margin-top: 50px;
+                color: #ffffff;
+            }
+
+        .desc {
+            background: #eee;
+            padding: 20px;
+        }
+
+            .desc h4 {
+                color: #000;
+            }
+
+                .desc h4 span {
+                    float: right;
+                    font-size: 12px;
+                    text-transform: lowercase;
+                }
+
+            .desc span.small {
+                color: #55A13C;
+                margin: 0.3em 0em 0em 0em;
+            }
+
+            .desc h4 span {
+                float: right;
+                font-size: 12px;
+                text-transform: lowercase;
+            }
+
+        .tag {
+            border: 1px solid #dedede;
+            position: relative;
+            background-color: #FFF;
+        }
+
+            .tag:before, .tag:after {
+                content: "";
+                display: block;
+                border-width: 17px;
+                position: absolute;
+                bottom: -35px;
+                left: 70%;
+                border-style: solid dashed dashed;
+                border-color: #dedede transparent transparent;
+                font-size: 0;
+                line-height: 0;
+            }
+
+            .tag:after {
+                bottom: -33px;
+                border-color: #FFF transparent transparent;
+            }
+        /*--- slider-css --*/
+        .slider {
+            position: relative;
+        }
+
+        .rslides {
+            position: relative;
+            list-style: none;
+            overflow: hidden;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 75vh;
+        }
+
+            .rslides li {
+                -webkit-backface-visibility: hidden;
+                position: absolute;
+                display: none;
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+
+                .rslides li:first-child {
+                    position: relative;
+                    display: block;
+                    float: left;
+                }
+
+            .rslides img {
+                display: block;
+                height: auto;
+                float: left;
+                /*width: 100%;*/
+                border: 0;
+            }
+
+            .rslides .caption {
+                position: absolute;
+                text-align: center;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 100%;
+                height: 500px;
+            }
+
+                .rslides .caption h3 {
+                    color: #FFF;
+                    font-weight: 700;
+                    font-size: 60px;
+                    margin: 100px 0 40px 0px;
+                }
+
+                /*.rslides .caption span {
+                        color: #2196F3;
+                    }*/
+
+                .rslides .caption p {
+                    color: #FFF;
+                    line-height: 1.5em;
+                    font-size: 20px;
+                    font-weight: 300;
+                    text-align: center;
+                    margin: 40px 0;
+                }
+
+        a.morebtn {
+            background: transparent;
+            padding: 15px 0;
+            display: block;
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #FFF;
+            width: 15%;
+            margin: 0 auto;
+            border: 1px solid #fff;
+        }
+
+        .callbacks_nav {
+            position: absolute;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            top: 50%;
+            z-index: 3;
+            text-indent: -9999px;
+            overflow: hidden;
+            text-decoration: none;
+            height: 80px;
+            width: 80px;
+            margin-top: -45px;
+        }
+
+            .callbacks_nav.next {
+                background-image: url('../../images/left2.png');
+                left: auto;
+                background-position: right top;
+                right: 3px;
+            }
+
+            .callbacks_nav.prev {
+                background-image: url('../../images/left1.png');
+                right: auto;
+                background-position: left top;
+                left: 3px;
+            }
+
+            .callbacks_nav.next:hover {
+                background-image: url('../../images/right2.png');
+                left: auto;
+                background-position: right top;
+                right: 3px;
+            }
+
+            .callbacks_nav.prev:hover {
+                background-image: url('../../images/right1.png');
+                right: auto;
+                background-position: left top;
+                left: 3px;
+            }
+
+        ul.callbacks_tabs.callbacks1_tabs {
+            display: none;
+        }
+
+        ul.dropdown-menu {
+            border-radius: 0;
+            padding-top: 10px;
+            /*border-top: none;*/
+        }
+
+            ul.dropdown-menu li {
+                border-bottom: 1px solid #f5f5f5;
+            }
+
+                ul.dropdown-menu li a {
+                    font-size: 12px;
+                    padding: 10px 20px;
+                    color: #466085;
+                }
+
+                    ul.dropdown-menu li a:hover {
+                        color: #60c9eb;
+                    }
+
+        #toTop {
+            display: none;
+            text-decoration: none;
+            position: fixed;
+            bottom: 10px;
+            right: 15px;
+            overflow: hidden;
+            width: 40px;
+            height: 21px;
+            border: none;
+            text-indent: 100%;
+            background: url(../../images/to-top2.png) no-repeat 0px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="@(staticUrl)Home" title="HOME"><i class=""><img src="../../images/logo.png" style="width:30px;height:30px;" /></i><span>&nbsp;&nbsp;</span></a>
+                </div>
+                <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="@(staticUrl)MenuBar/List/355">校园动态</a></li>
+                        <li><a href="@(staticUrl)MenuBar/List/x">通知公告&nbsp;&nbsp;&nbsp;|</a></li>
+                        <li><a href="@(staticUrl)MenuBar/List/y">作品园地&nbsp;&nbsp;&nbsp;|</a></li>
+                        <li>
+                            <a href="#">基层党务<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/560">支部工作</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/582">工会园地</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/563">团员生活</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">行为规范<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/824">管理保障</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/825">教育实施</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/826">学生行为表现</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/827">示范辐射</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">文明在线<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/853">2017-2018年度市文明校园（和谐校园）创建</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/854">2009-2016年度市文明校园（和谐校园）创建</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">学校信息公开<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/668">学校概况</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/691">学校业务</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/692">计划总结</a></li>
+                                <li><a class="external" href="@(staticUrl)MenuBar/List/704">其他</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+
+        <div class="header">
+            <div class="slider">
+                <ul class="rslides " id="slider">
+
+                    <li>
+                        <img src="../../images/index.jpg" />
+                        <div class="caption">
+                            <h1 class="header-title">
+                                <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                            </h1>
+                            <p class="header-sub-title">
+                                Suntech Puzzle Tim can Liren
+                            </p>
+                            <button class="btn custom-btn">
+                                了解更多
+                            </button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="../../images/index.jpg" />
+                        <div class="caption">
+                            <h1 class="header-title">
+                                <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                            </h1>
+                            <p class="header-sub-title">
+                                Suntech Puzzle Tim can Liren
+                            </p>
+                            <button class="btn custom-btn">
+                                了解更多
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img src="../../images/shouye.png" />
+        </div>
+
+
+        @RenderBody()
+        <hr />
+    </div>
+
+    <!-- 全局js -->
+    <script src="~/js/jquery-2.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/responsiveslides.min.js"></script>
+    <script src="~/js/YF.js"></script>
+    <script src="~/js/YF.Config.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <script src="~/js/move-top.js"></script>
+    <script src="~/js/easing.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("#slider").responsiveSlides({
+                    auto: true,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    pager: true,
+                });
+            });
+            $("ul.nav li").each(function (index, item) {
+                $(item).hover(function () {
+                    $(this).find("ul.dropdown-menu").css("display", "block");
+                }, function () {
+                    $(this).find("ul.dropdown-menu").css("display", "none");
+                });
+            });
+        });
+    </script>
+
+    @RenderSection("scripts", false)
+</body>
+</html>

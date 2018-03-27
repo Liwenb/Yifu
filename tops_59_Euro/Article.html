@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>文章</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/templatemo-style.css" rel="stylesheet" />
+    <!-- load stylesheets -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <style>
+        /*--- slider-css --*/
+        .slider {
+            position: relative;
+        }
+
+        .rslides {
+            position: relative;
+            list-style: none;
+            overflow: hidden;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 75vh;
+        }
+
+            .rslides li {
+                -webkit-backface-visibility: hidden;
+                position: absolute;
+                display: none;
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+
+                .rslides li:first-child {
+                    position: relative;
+                    display: block;
+                    float: left;
+                }
+
+            .rslides img {
+                display: block;
+                height: auto;
+                float: left;
+                /*width: 100%;*/
+                border: 0;
+            }
+
+            .rslides .caption {
+                position: absolute;
+                text-align: center;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 100%;
+                height: 500px;
+            }
+
+                .rslides .caption h3 {
+                    color: #FFF;
+                    font-weight: 700;
+                    font-size: 60px;
+                    margin: 100px 0 40px 0px;
+                }
+
+                /*.rslides .caption span {
+                        color: #2196F3;
+                    }*/
+
+                .rslides .caption p {
+                    color: #FFF;
+                    line-height: 1.5em;
+                    font-size: 20px;
+                    font-weight: 300;
+                    text-align: center;
+                    margin: 40px 0;
+                }
+    </style>
+</head>
+<body style="background-color:#f2f2f2;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" title="HOME"><i class=""><img src="assets/images/logo.png" style="width:30px;height:30px;" /></i><span>&nbsp;&nbsp;</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">校园动态</a></li>
+                    <li><a href="#">通知公告&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">作品园地&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">学习天地&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li>
+                        <a href="#">基层党务<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">支部工作</a></li>
+                            <li><a class="external" href="#">工会园地</a></li>
+                            <li><a class="external" href="#">团员生活</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">行为规范<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">管理保障</a></li>
+                            <li><a class="external" href="#">教育实施</a></li>
+                            <li><a class="external" href="#">学生行为表现</a></li>
+                            <li><a class="external" href="#">示范辐射</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">文明在线<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">2017-2018年度市文明校园（和谐校园）创建</a></li>
+                            <li><a class="external" href="#">2009-2016年度市文明单位（和谐校园）创建</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">学校信息公开<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">校园动态</a></li>
+                            <li><a class="external" href="#">一周公告</a></li>
+                            <li><a class="external" href="#">公示栏</a></li>
+                            <li><a class="external" href="#">招生考试</a></li>
+                            <li><a class="external" href="#">教育收费</a></li>
+                            <li><a class="external" href="#">后勤安全</a></li>
+                            <li><a class="external" href="#">学校概览</a></li>
+                            <li><a class="external" href="#">计划总结</a></li>
+                            <li><a class="external" href="#">学校业务</a></li>
+                            <li><a class="external" href="#">其他</a></li>
+                            <li><a class="external" href="#">相关网站链接</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="slider">
+            <ul class="rslides " id="slider">
+
+                <li>
+                    <img src="assets/images/index.jpg" />
+                    <div class="caption">
+                        <h1 class="header-title">
+                            <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                        </h1>
+                        <p class="header-sub-title">
+                            Suntech Puzzle Tim can Liren
+                        </p>
+                        <button class="btn custom-btn">
+                            了解更多
+                        </button>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="assets/images/index.jpg" />
+                    <div class="caption">
+                        <h1 class="header-title">
+                            <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                        </h1>
+                        <p class="header-sub-title">
+                            Suntech Puzzle Tim can Liren
+                        </p>
+                        <button class="btn custom-btn">
+                            了解更多
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+   <div class="currentPosition"><i class=" icon-cloud-download"></i><p>当前位置：首页 > 逸夫新闻 > 校园动态</p></div>
+
+    <hr style="border:1px solid #dcdcdc;" />
+
+    <div class="container-fluid" style="margin-top:-20px;">
+        <div class="tm-body">
+            <div class="tm-sidebar">
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul">
+                        <li class="tm-nav-item">
+                            <a href="#welcome" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-smile-o tm-nav-fa"></i>相关内容列表
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#gallery" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-image tm-nav-fa"></i>● 招生简章发布啦
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#services" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-tasks tm-nav-fa"></i>● 递夫小学一上海市文明单位资料
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#about" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa"></i>● 2016俱乐部公告
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 2016俱乐部课程介绍
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 杨奥运精神,展领巾风采
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 逸夫小学党支部开展第三次“两学一做”专题学习会
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 快乐活动日(俱乐部活动)掠影
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 逸夫小学家长积极参与学校活动
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 递夫小学学生参与区"班斑有歌声展示活动
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 我心目中的好老师
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 一封来自家长的感谢
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 班主任专业化发展手册
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 2015学年德育主教育活动案
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 第六届“递夫十佳”教师评方案
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 以平等促师生和以和盪建班级文化
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>● 感受校园文化,定业理想
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="tm-main-content">
+                <div id="article">
+                    <div class="tm-services-title-article ">
+                        <span>经历让——我们彼此珍惜</span>
+                        <hr />
+                        <p>作者 / 来源：逸夫小学&nbsp;&nbsp;&nbsp;&nbsp;发布时间：2017-04-05</p>
+                    </div>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016年,是上海市徐汇区逸夫小学值得纪念的一年,因为逸夫度过了20岁的生日
+                        回逸夫10年校庆时,我们在《追求卓越和谐发展》的校园文化影响下,以《乘凉不忘栽树人》为主题,开展了一系列丰富多彩的教育活
+                        动,“不忘初心”是逸夫人永远的情怀
+                        回顾逸夫15年校庆时,我们在《崇尚真情文化立校》的校园思想引领下,以言传身教、低砺耕耘为主题,举办了老校长戴舜琴从教50周年
+                        教育思想研讨会,“坚持传承”是逸夫人坚定的信念。
+                        今年,逸夫20)岁了,我们在《风雨同舟携手共进》的校园精神鼓舞下,在教育改革的春风中加强课程创新,丰富课程内通,让孩子们在丰
+                        高的校园生活中尽情体验,得到锻炼,不断健康成长,“创新发展”是逸夫人不懈的追求!
+                        20年校庆,学校组织开展了“逸夫人,大团聚”、“爱的教育不忘初心德育活动展示”、“播指知识实基础教学活动展示”、
+                        陶艺馆、乒乓馆落成”、“篮球馆大楼落成”、“校庆庆典”六大庆祝活动,每次活动的组织、策划、宣传都是一次很好的锻炼,也是一次
+                        难忘的经历。其中最为值得骄傲的就是我们逸夫的孩子们,他们的参与给各类活动增添了斑斓色彩
+                        我们通过各种渠道,尽可能通知所有逸夫的学子和教师回家团聚,为每个回来的逸夫人准备了具有纪念意义的文化衫、开放教室、开展论坛,
+                        往事历历在目,无限感动和感概着实令人动容!我们把逸夫20年来18届毕业生的照片都存放在校史室,校友们在照片中寻找当年青涩椎的自
+                        己,或唏哺惊叹或转身相拥,感根时光的飞逝
+                        学校是上海市中小学生行为规范示范校,爱的教育是孩子在校德育活动的主题,今年,学完成了逸夫小学德育手册,作者是中国新闻浸
+                        画研究会副会长、上海美协漫画艺委会副主任孙绍波,这是学校德育工作的总结,也是学生在校开展的活动经历的浓缩,是孩子走向社会的第
+                        一本行规护照。希望从逸夫走出的学生具备扎实的基础、综合的素质和创新的素养
+                        10月18日,我们面向全区,以“润养炫彩灵动智慧”为主题集中展示了学校各学科近年来的教学成果。出席活动的有上海市教委教研室
+                        小学部主任、数学教研员姚剑强老师,上海市普陀区教师进修学脘吕菊芬老师,徐汇区教师进修学院教研员琰、顾亚龙高永娟老师,外省
+                        市以及本区四十余所兄弟学校的老师共计130人。语文、英语、综合学科的教师代表进行了主题发言和展示,数学学科两位老师进行了课堂教
+                        学现场展示,区骨干教师阵玉华执教五年级《正方体的展开图》、任职初期教师宦倩执教五年级《平行四边形》,数学教研组以“基于课标
+                        以学为中心的课堂教学创造—几何板块”为主题,以陈玉华、宦俏两位老师的教学为例进行了全体数学教师参与的卷入式课例研究活动
+                        数学组的每位老师从科学的理论知识出发,结合自身教学经验交流分享了听课的所思所感,数学教研组教师的专业素养与团队教硏能力也给与
+                        会的专家、老师留下了深刻的印象。
+                        自建校起,学校就构建了以“创造教育”为特色的学校课程体系,除了对语文、数学、英语等基础课程的统整,还针对孩子的心理特点开
+                        发相应的拓展型校本课程,形成了“陶艺”、“儿童动画”、“思维训练”、“经典诗文诵读”、“少儿太极”“跆学道”等一大批学生们喜
+                        欢的校本课程。其中陶艺课程在全市范围都非常有特色,特聘了毕业于江西景德镇陶瓷学院的陶瓷艺术家吴卫华担任指导教师,在他的指导和
+                        影响下,学生们探索着陶艺的乐趣
+                        此外,针对学校内的各种特色德育活动进行梳理,形成了德育系列校本课程。如每年级分主题分重点开展实施的“爱的教育”、“小社会里
+                        学公德,大社会中去实践”、“六个一”的行为规范教育课程,以及学科渗透德育、德智融合的“书香飘满校园,阅读愉悦你我”读书活动课
+                        程,学校设有书画斋、科技港、信息库、创造室、艺术苑、陶艺工场等十多个专用教室,除丰富的校本课程,学校也有学科拓展、体育健身
+                        科学技术、生活制作、艺术人文五大板块的俱乐部课程,有科技、艺术等特色活动
+                        就在几天前,逸夫校园刮起过一阵“郎旋风”,原来女排国家队主教练郎平在昔日弟子诸韵颖的陪伴下走进了逸夫小学的校园,参加“开展
+                        排球特色课程弘扬女排拼搏精神”的体育普及活动。2015年初,诸韵颖在徐汇区注册成立“诸韵颖青少年体育俱乐部”,并开始在逸夫小学
+                        普及校园排球,专业的教练团队,高水平的排球训练课,让排球项目在不到一年时间里,迅速成为学校青少年最受欢迎的项目之一
+                        学校地址:上海市徐汇区罗秀路400号
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

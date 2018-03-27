@@ -1,0 +1,21 @@
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\bin\Debug\YiFuSchool.Tool.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\bin\Debug\MySql.Data.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Tool\obj\Debug\YiFuSchool.Tool.pdb

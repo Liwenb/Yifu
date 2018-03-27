@@ -1,0 +1,289 @@
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\ApplicationInsights.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\csc.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\vbc.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\VBCSCompiler.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\PetHospital.dll.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\PetHospital.pdb
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.Web.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Helpers.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Mvc.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.Web.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Webpages.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Helpers.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\System.Web.Mvc.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\obj\Debug\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\PetHospital\obj\Debug\PetHospital.pdb
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\ApplicationInsights.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\csc.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\vbc.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\PetHospital.dll.config
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\PetHospital.pdb
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Helpers.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Mvc.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Helpers.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\System.Web.Mvc.xml
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\obj\Debug\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\obj\Debug\PetHospital.pdb
+C:\Users\TangLong\Desktop\Desktop\PetHospital\YiFuSchool.Web\obj\Debug\YiFuSchool.Web.csprojResolveAssemblyReference.cache
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\ApplicationInsights.config
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\csc.exe
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\vbc.exe
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll.config
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\PetHospital.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\MySql.Data.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\MySql.Data.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\obj\Debug\YiFuSchool.Web.csprojResolveAssemblyReference.cache
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\ApplicationInsights.config
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\csc.exe
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\vbc.exe
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll.config
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\PetHospital.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\MySql.Data.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\MySql.Data.xml
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\obj\Debug\YiFuSchool.Web.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\ApplicationInsights.config
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\csc.exe
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\vbc.exe
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll.config
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\PetHospital.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\PetHospital.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\MySql.Data.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Manager.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Razor.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Helpers.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\System.Web.Mvc.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Services.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\MySql.Data.xml
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\YiFuSchool.Tool.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\obj\Debug\YiFuSchool.Web.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Web\obj\Debug\PetHospital.pdb

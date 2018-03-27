@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewBag.Title = "菜单列表";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var staticUrl = YiFuSchool.Web.Core.WebConfig.DefaultSiteUrl;
+}
+
+<style>
+    .template {
+        display: none;
+    }
+
+    .rightGengduo {
+        float: right;
+        cursor: pointer;
+    }
+</style>
+<link href="~/css/main.css" rel="stylesheet" />
+<link href="~/css/templatemo-style.css" rel="stylesheet" />
+
+<div style="background-color:#f2f2f2;">
+
+    <div class="currentPosition"><i class="ion-arrow-up-b"></i><p>当前位置：<a href="@(staticUrl)Home">首页</a> > <a class="routeOne"></a></p></div>
+    <hr style="border:1px solid #dcdcdc;" />
+
+
+    <div class="container-fluid" style="margin-top:-20px;">
+        <div class="tm-body">
+            <div class="tm-sidebar">
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul " id="menulist">
+                        <li class="tm-nav-item ">
+                            <a href="#" class="tm-nav-item-link tm-button ty title">
+
+                            </a>
+                        </li>
+                        <li class="tm-nav-item  template">
+                            <a href="#" class="tm-nav-item-link tm-button ty">
+
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="tm-main-content" id="contentlist">
+                <div id="gallery" class="tm-content-box">
+                    <div class="grid tm-gallery">
+                        <figure class="effect-bubba">
+                        </figure>
+                    </div>
+                </div>
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services template">
+                    <div class="tm-services-title-container ">
+                        <span></span>
+                    </div>
+                    <div>
+                        <ul id="lilist"></ul>
+                        <a class="rightGengduo">更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts
+    {
+
+    <script type="text/template" id="template_Web">
+        <li><a></a></li>
+    </script>
+
+
+    <script type="text/template" id="template_gl">
+        <li class="tm-nav-item">
+            <a href="#" class="tm-nav-item-link tm-button ty title">
+                其他
+            </a>
+        </li>
+        <li class="tm-nav-item">
+            <a href="#" class="tm-nav-item-link tm-button ty title">
+                相关网站链接
+            </a>
+        </li>
+    </script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var liData=[];
+            var  menuList = @(Html.Raw(ViewBag.MenuList));
+
+            $("#menulist > li > .title").html(menuList.Message);
+            $(".routeOne").html(menuList.Message).attr("href","@(staticUrl)MenuBar/List/"+menuList.ID);
+
+            $(menuList.Data).each(function(index,item){
+
+                var menu = $("#menulist > li.template").clone().removeClass("template");
+                menu.find("a").html(item.cat_name).attr("href","@(staticUrl)Article/List/"+menuList.ID+"-"+item.cat_id);
+                $("ul#menulist").append(menu);
+
+                var html = $("#contentlist > .template").clone().removeClass("template");
+                html.find("span").html(item.cat_name);
+
+                PageData = getListById(item.cat_id);
+
+                $(PageData).each(function(index,li){
+                    var lihtml = $($("#template_Web").text()).clone();
+                    lihtml.find('a').html("● " + li.cat_body_title).attr("href", "@(staticUrl)Article/Article/"+li.cat_body_id);
+                    html.find("ul#lilist").append(lihtml);
+                });
+
+                html.find("a.rightGengduo").attr("href","@(staticUrl)Article/List/"+menuList.ID+"-"+item.cat_id);
+                $("div#contentlist").append(html);
+            });
+            $("ul#menulist").append($($("#template_gl").text()));
+        });
+
+        function getListById(id){
+            var PageData= [];
+            var postData={};
+            postData.cat_id = id;
+            $.ajax({
+                async: false,
+                type: "Post",
+                data: postData,
+                url: "/API/Article/GetListByCat_Id/",
+                success: function (res) {
+                    if (res.Code == 1) {
+                        PageData= res.Data;
+                    }
+                },
+            });
+            return PageData;
+        }
+    </script>
+}
+
+

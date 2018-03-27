@@ -1,0 +1,13 @@
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Manager.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Manager.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Services.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\MySql.Data.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Model.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Services.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\MySql.Data.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\bin\Release\YiFuSchool.Tool.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\obj\Release\YiFuSchool.Manager.csprojResolveAssemblyReference.cache
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\obj\Release\YiFuSchool.Manager.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Manager\obj\Release\YiFuSchool.Manager.pdb

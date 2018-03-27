@@ -1,0 +1,4 @@
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\bin\Release\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\bin\Release\YiFuSchool.Model.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\obj\Release\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\obj\Release\YiFuSchool.Model.pdb

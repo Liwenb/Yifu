@@ -1,0 +1,7 @@
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Release\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Release\YiFuSchool.Tool.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Release\MySql.Data.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\bin\Release\MySql.Data.xml
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Release\YiFuSchool.Tool.csprojResolveAssemblyReference.cache
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Release\YiFuSchool.Tool.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Tool\obj\Release\YiFuSchool.Tool.pdb

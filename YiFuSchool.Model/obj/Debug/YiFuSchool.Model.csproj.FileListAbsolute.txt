@@ -1,0 +1,14 @@
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.pdb
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.dll
+C:\Users\TangLong\Desktop\Desktop\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\新建文件夹 (3)\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Model\bin\Debug\YiFuSchool.Model.pdb
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.csprojResolveAssemblyReference.cache
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.dll
+C:\Users\TN\Desktop\SMGOne\逸夫学校\YiFuSchool.Model\obj\Debug\YiFuSchool.Model.pdb

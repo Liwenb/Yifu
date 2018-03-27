@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>信息公开</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/templatemo-style.css" rel="stylesheet" />
+    <!-- load stylesheets -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <style>
+        /*--- slider-css --*/
+        .slider {
+            position: relative;
+        }
+
+        .rslides {
+            position: relative;
+            list-style: none;
+            overflow: hidden;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 75vh;
+        }
+
+            .rslides li {
+                -webkit-backface-visibility: hidden;
+                position: absolute;
+                display: none;
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+
+                .rslides li:first-child {
+                    position: relative;
+                    display: block;
+                    float: left;
+                }
+
+            .rslides img {
+                display: block;
+                height: auto;
+                float: left;
+                /*width: 100%;*/
+                border: 0;
+            }
+
+            .rslides .caption {
+                position: absolute;
+                text-align: center;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 100%;
+                height: 500px;
+            }
+
+                .rslides .caption h3 {
+                    color: #FFF;
+                    font-weight: 700;
+                    font-size: 60px;
+                    margin: 100px 0 40px 0px;
+                }
+
+                /*.rslides .caption span {
+                        color: #2196F3;
+                    }*/
+
+                .rslides .caption p {
+                    color: #FFF;
+                    line-height: 1.5em;
+                    font-size: 20px;
+                    font-weight: 300;
+                    text-align: center;
+                    margin: 40px 0;
+                }
+    </style>
+</head>
+
+<body style="background-color:#f2f2f2;">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" title="HOME"><i class=""><img src="assets/images/logo.png" style="width:30px;height:30px;" /></i><span>&nbsp;&nbsp;</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">校园动态</a></li>
+                    <li><a href="#">通知公告&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">作品园地&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">学习天地&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li>
+                        <a href="#">基层党务<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">支部工作</a></li>
+                            <li><a class="external" href="#">工会园地</a></li>
+                            <li><a class="external" href="#">团员生活</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">行为规范<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">管理保障</a></li>
+                            <li><a class="external" href="#">教育实施</a></li>
+                            <li><a class="external" href="#">学生行为表现</a></li>
+                            <li><a class="external" href="#">示范辐射</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">文明在线<b class="caret"></b>&nbsp;&nbsp;&nbsp;|</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">2017-2018年度市文明校园（和谐校园）创建</a></li>
+                            <li><a class="external" href="#">2009-2016年度市文明单位（和谐校园）创建</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">学校信息公开<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="external" href="#">校园动态</a></li>
+                            <li><a class="external" href="#">一周公告</a></li>
+                            <li><a class="external" href="#">公示栏</a></li>
+                            <li><a class="external" href="#">招生考试</a></li>
+                            <li><a class="external" href="#">教育收费</a></li>
+                            <li><a class="external" href="#">后勤安全</a></li>
+                            <li><a class="external" href="#">学校概览</a></li>
+                            <li><a class="external" href="#">计划总结</a></li>
+                            <li><a class="external" href="#">学校业务</a></li>
+                            <li><a class="external" href="#">其他</a></li>
+                            <li><a class="external" href="#">相关网站链接</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="slider">
+            <ul class="rslides " id="slider">
+
+                <li>
+                    <img src="assets/images/index.jpg" />
+                    <div class="caption">
+                        <h1 class="header-title">
+                            <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                        </h1>
+                        <p class="header-sub-title">
+                            Suntech Puzzle Tim can Liren
+                        </p>
+                        <button class="btn custom-btn">
+                            了解更多
+                        </button>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="assets/images/index.jpg" />
+                    <div class="caption">
+                        <h1 class="header-title">
+                            <span>尚德&nbsp;&nbsp;益智&nbsp;&nbsp;添能&nbsp;&nbsp;立人</span>
+                        </h1>
+                        <p class="header-sub-title">
+                            Suntech Puzzle Tim can Liren
+                        </p>
+                        <button class="btn custom-btn">
+                            了解更多
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="currentPosition"><i class="ion-arrow-up-b"></i><p>当前位置：首页 > 学校信息公开</p></div>
+    <hr style="border:1px solid #dcdcdc;" />
+
+
+    <div class="container-fluid" style="margin-top:-20px;">
+        <div class="tm-body">
+            <div class="tm-sidebar">
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul">
+                        <li class="tm-nav-item">
+                            <a href="#welcome" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-smile-o tm-nav-fa" style="margin-left:20%;"></i>>  学校概览
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#gallery" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-image tm-nav-fa" style="margin-left:30%;"></i>学校简介
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#services" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-tasks tm-nav-fa" style="margin-left:30%;"></i>学校领导
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#about" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa" style="margin-left:30%;"></i>组织机构
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>办学特色
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>校园动态
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>办学特色
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:20%;"></i>>  计划总结
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>发展规划
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>年度计划
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>年度总结
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>公示栏
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>一周公告
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:20%;"></i>>  学校业务
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>招生考试
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>教育收费
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>学生工作
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>教学科研
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>师资建设
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>体卫艺科
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>后勤安全
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:30%;"></i>教育收费
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:16%;"></i>>  其他
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contact" class="tm-nav-item-link tm-button title">
+                                <i class="fa fa-envelope-o tm-nav-fa" style="margin-left:16%;"></i>>  相关网站链接
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="tm-main-content">
+                <div id="gallery" class="tm-content-box">
+                    <div class="grid tm-gallery">
+                        <figure class="effect-bubba">
+                        </figure>
+                    </div>
+                </div>
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>学校动态</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 2017学年第一学期俱乐部报名(09-08)</a></li>
+                            <li><a>● 招生简章发布啦(03-15)</a></li>
+                            <li><a>● 逸夫小学——上海市文明单位资料(04-25)</a></li>
+                            <li><a>● 风雨同舟二十年，携手共圆逸夫梦：记逸夫小学建校20周年庆典活动(04-05)</a></li>
+                            <li><a>● 经历——让我们彼此珍惜(04-05)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>一周公告</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 2017学第一学第2两学校工作安排(09-04)</a></li>
+                            <li><a>● 20117学年第一学第1用学校工作安馆(09-04)</a></li>
+                            <li><a>● 2016学年第二学期第19学校工作安塘(09-04)</a></li>
+                            <li><a>● 2016学年二学衔需18学校工作安增(09-04)</a></li>
+                            <li><a>● 2016学年第二学据17周学校工作安排(09-04)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>公告栏</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 2013年株汇区选夹小学一级艘务评工作日程安得一表(02-24)</a></li>
+                            <li><a>● 2013年徐汇区选夫小学离级对务评同工作日程安排一表(02-24)</a></li>
+                            <li><a>● 2013年度考优秀人员公示(02-24)</a></li>
+                            <li><a>● 2013汇区”好菌”,“当代小先生”推行人选公示(11-11)</a></li>
+                            <li><a>● 2013学年儿廉团大团长,少先队大队要员竞选结集公示(09-22)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>招生考试</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 逸大小学2017校车时表(05-04)</a></li>
+                            <li><a>● 新生谈友情捏智(04-28)</a></li>
+                            <li><a>● 逸夫小学2017校车(03-21)</a></li>
+                            <li><a>● 2017年天小学招生筒苹(03-15)</a></li>
+                            <li><a>● 选夫小学20164校车路线图(04-13)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>教育收费</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 2010学年一学期学生期白收普卡(10-21)</a></li>
+                            <li><a>● 2010学年应第一学收些责况公示(10-13)</a></li>
+                            <li><a>● 2009学牛第一学期学生明白收费卡(10-16)</a></li>
+                            <li><a>● 2009学年销一学收费青元公示们(10-15)</a></li>
+                            <li><a>● 2008学年度第二学期学生明白收费卡(02-19)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="services" class="tm-content-box tm-gray-bg tm-services">
+                    <div class="tm-services-title-container ">
+                        <span>后勤安全</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a>● 2018年1月学生午餐菜单(01-17)</a></li>
+                            <li><a>● 2017年12月学生午餐菜单(12-07)</a></li>
+                            <li><a>● 2017年11月学生午餐菜单(10-30)</a></li>
+                            <li><a>● 2017年10月学生午餐菜单(09-29)</a></li>
+                            <li><a>● 2017年9月学生午餐菜单(09-01)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/jquery.singlePageNav.min.js"></script>
+    <script>
+        function setNavbar() {
+            if ($(document).scrollTop() > 700) {
+                $('.tm-sidebar').addClass('sticky');
+            } else {
+                $('.tm-sidebar').removeClass('sticky');
+            }
+        }
+
+        $(document).ready(function () {
+
+            // Single page nav
+            $('.tm-main-nav').singlePageNav({
+                'currentClass': "active",
+               offset: 20
+            });
+
+            // Detect window scroll and change navbar
+            setNavbar();
+
+            $(window).scroll(function () {
+                setNavbar();
+            });
+
+            // Magnific pop up
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a', // child items selector, by clicking on it popup will open
+                type: 'image',
+               gallery: { enabled: true }
+                // other options
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>

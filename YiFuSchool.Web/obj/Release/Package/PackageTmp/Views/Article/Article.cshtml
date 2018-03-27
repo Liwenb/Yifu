@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "文章详情";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var staticUrl = YiFuSchool.Web.Core.WebConfig.DefaultSiteUrl;
+}
+<link href="~/css/main.css" rel="stylesheet" />
+<link href="~/css/templatemo-style.css" rel="stylesheet" />
+<style>
+    .template {
+        display: none;
+    }
+</style>
+
+<div style="background-color:#f2f2f2;">
+    <div class="currentPosition"><i class="icon-cloud-download"></i><p>当前位置：<a href="@(staticUrl)Home">首页</a></p></div>
+
+    <hr style="border:1px solid #dcdcdc;" />
+
+    <div class="container-fluid" style="margin-top:-20px;">
+        <div class="tm-body">
+            <div class="tm-sidebar">
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul" id="menulist">
+                        <li class="tm-nav-item">
+                            <a href="#" class="tm-nav-item-link tm-button title">
+                                相关内容列表
+                            </a>
+                        </li>
+                        <li class="tm-nav-item  template">
+                            <a href="#" class="tm-nav-item-link tm-button">
+
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="tm-main-content" style="min-height:700px;">
+                <div id="article">
+                    <div class="tm-services-title-article ">
+                        <span class="title"></span>
+                        <hr />
+                        <p>作者 / 来源：<span class="author"></span>&nbsp;&nbsp;&nbsp;&nbsp;发布时间：<span class="indate"></span></p>
+                    </div>
+                    <div id="content">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts
+    {
+    <script src="~/js/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript">
+
+        function setNavbar() {
+            if ($(document).scrollTop() > 700) {
+                $('.tm-sidebar').addClass('sticky');
+            } else {
+                $('.tm-sidebar').removeClass('sticky');
+            }
+        }
+        $(document).ready(function () {
+            var PageData = @(Html.Raw(ViewBag.PageData));
+            var ListData = @(Html.Raw(ViewBag.ListData));
+
+
+            $(ListData).each(function(index,item){
+
+                var menu = $("#menulist > li.template").clone().removeClass("template");
+                var title = item.cat_body_title.length>14?item.cat_body_title.substring(0,14)+"...":item.cat_body_title;
+                menu.find("a").html("● " +title).attr("href","@(staticUrl)Article/Article/"+item.cat_body_id).attr("title",item.cat_body_title);
+                $("ul#menulist").append(menu);
+            });
+
+            $("span.title").text(PageData.Data.cat_body_title);
+            $(".author").text(PageData.Data.cat_body_author);
+            $(".indate").text(PageData.Data.cat_body_indate);
+
+            if (PageData.Data.cat_body_content!=""&&PageData.Data.cat_body_content!=null) {
+
+                $("#content").append(PageData.Data.cat_body_content.replace("src=\"","src=\"http://yfxx.xhedu.sh.cn"));
+            }else{
+                if (PageData.Data.cat_body_type=="L") {
+                    window.location.href = PageData.Data.cat_body_url;
+                }if (PageData.Data.cat_body_type=="I") {
+                    $("#content").append($("<img />").attr("src","http://yfxx.xhedu.sh.cn"+PageData.Data.cat_body_url));
+                }
+            }
+
+
+            //$(".content").append(PageData.Data.cat_body_content.replace("src=\"","src=\"http://yfxx.xhedu.sh.cn"));
+
+            setNavbar();
+
+            $(window).scroll(function () {
+                setNavbar();
+            });
+        });
+    </script>
+}
+
+
+
+

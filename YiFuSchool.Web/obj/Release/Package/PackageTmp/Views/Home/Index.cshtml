@@ -1,0 +1,394 @@
+﻿
+@{
+    ViewBag.Title = "首页";
+    var staticUrl = YiFuSchool.Web.Core.WebConfig.DefaultSiteUrl;
+}
+<link href="~/css/main.css" rel="stylesheet" />
+<link href="~/css/owl.carousel.css" rel="stylesheet" />
+<style>
+    #owl-demo > .item > .tag > a {
+        color: #ffffff;
+        background: #029274;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 60px;
+        border: 1px solid #aaa;
+        margin: 10px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .span1_of_3 {
+        float: right;
+        width: 29%;
+    }
+
+        .span1_of_3:first-child {
+            margin-left: 5%;
+            float: left;
+        }
+
+        .span1_of_3 img {
+            height: 134px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .span1_of_3 .address {
+            margin-top: 70px;
+        }
+
+        .span1_of_3 .phone {
+            margin-left: 25%;
+        }
+
+    .f_nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        /*margin-left: -56%;*/
+    }
+
+        .f_nav li {
+            float: left;
+        }
+
+            .f_nav li img {
+                height: 50px;
+                width: 80px;
+            }
+</style>
+
+<div class="gallery slideanim" id="gallery">
+    <h2 class="section-title">
+        学校概况
+    </h2>
+    <p class="section-subtitle">
+        School Profile
+    </p>
+    <div class="gallery-cursual">
+
+        <div id="owl-demo" class="owl-carousel text-center">
+            <div class="item">
+                <div class="tag tag1">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag2 ">
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag3">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag4">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag5">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag6">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="tag tag7">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tour">
+    <h2 class="section-title" style="color:#ffffff;">
+        公告栏
+    </h2>
+    <p class="section-subtitle" style="color:#ffffff;">
+        Bulletin Board
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="5" src="../../images/icon/5-5.png" />
+                    </a>
+                </div>
+                <h3 class="">学校动态</h3>
+            </div>
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="4" src="../../images/icon/4-4.png" />
+                    </a>
+                </div>
+                <h3 class="services-heading">通知公告</h3>
+            </div>
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="1" src="../../images/icon/1-1.png" />
+                    </a>
+                </div>
+                <h3 class="services-heading">课程体系</h3>
+            </div>
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="6" src="../../images/icon/6-6.png" />
+                    </a>
+                </div>
+                <h3 class="services-heading">校史荣誉</h3>
+            </div>
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="2" src="../../images/icon/2-2.png" />
+                    </a>
+                </div>
+                <h3 class="services-heading">作品园地</h3>
+            </div>
+            <div class="col-sm-2 services-item">
+                <div class="wrap-img">
+                    <a href="Article/List">
+                        <img data-id="3" src="../../images/icon/3-3.png" />
+                    </a>
+                </div>
+                <h3 class="services-heading">招生事宜</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gallery slideanim" id="gallery">
+    <h2 class="section-title">
+        逸夫新闻
+    </h2>
+    <p class="section-subtitle">
+        Shaw News
+    </p>
+    <div class="gallery-cursual" style="max-height:350px;">
+        <div id="owl-demo1" class="owl-carousel text-center">
+            <div class="item">
+                <a class="item1">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 ——  创造库 <br> New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item2">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive"><div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 信息库<br> New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item3">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 科技港<br> New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item4">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive"><div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 陶艺馆<br> New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item5">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive"><div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 书画斋<br> New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item6">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive"><div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 小亭<br>New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item7">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 教室<br>New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item8">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 走廊<br>New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item8">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 操场<br>New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="item10">
+                    <img src="../../images/area1.jpg" alt="" class="img-responsive">
+                    <div class="desc">
+                        <h4 class="text-left">逸夫新十景 —— 教学大楼<br>New Destination!<br></h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div style="height:30px;"></div>
+
+<footer>
+    <!-- start grids_of_3 -->
+    <div class="span_of_3 clearfix">
+        <div class="span1_of_3 clearfix">
+            <img src="~/images/erweima.jpg" />
+            <div class="address">
+                <p><i class="fa fa-map-marker"></i>  学校地址 : 上海市徐汇区罗秀路400号 </p>
+                <p><i class="fa fa-envelope"></i>  邮政编码 : 200231</p>
+            </div>
+        </div>
+
+        <div class="span1_of_3 clearfix">
+            <div class="phone">
+                <p><i class="fa fa-phone"></i>  联系电话 : 64104440 64771639</p>
+                <p><i class="fa fa-envelope"></i>  电子邮箱 : <a href="">yfxx2017@sina.com</a></p>
+            </div>
+            <ul class="f_nav clearfix">
+                <li><a href="#"><img src="~/images/g-1.png" alt=""> </a></li>
+                <li><a href="#"><img src="~/images/g-2.png" alt=""> </a></li>
+                <li><a href="#"><img src="~/images/g-3.png" alt=""> </a></li>
+                <li><a href="#"><img src="~/images/g-4.png" alt=""> </a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+@*<hr style="border:1px solid #b9c0c4;" />*@
+
+@section scripts
+    {
+    <script src="~/js/owl.carousel.js"></script>
+    <script src="~/js/jquery.singlePageNav.min.js"></script>
+    <script src="~/js/responsiveslides.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                items: 5,
+                lazyLoad: true,
+                autoPlay: true,
+                pagination: false,
+            });
+            $("#owl-demo1").owlCarousel({
+                items: 6,
+                lazyLoad: true,
+                autoPlay: true,
+                pagination: false,
+            });
+
+            //$(".scroll").click(function (event) {
+            //    event.preventDefault();
+            //    $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            //});
+
+            $(".services-item").hover(function () {
+
+                var id = $(this).find(".wrap-img img").attr("data-id");
+
+                $(this).find(".wrap-img img").attr("src", "../../images/icon/" + id + ".png");
+
+                $(this).find(".wrap-img").next("h3").css({
+                    color: "#3ad6bb",
+                });
+            }, function () {
+                var id = $(this).find(".wrap-img img").attr("data-id");
+
+                $(this).find(".wrap-img img").attr("src", "../../images/icon/" + id + "-" + id + ".png");
+                $(this).find(".wrap-img").next("h3").css({
+                    color: "#ffffff",
+                });
+            });
+            $("#owl-demo .item").hover(function () {
+                $(this).css("opacity", "1");
+            }, function () {
+                $(this).css("opacity", "0.5");
+            });
+            $("#owl-demo1 .item").hover(function () {
+                $(this).addClass("hover").find("img").css("opacity", "1");
+            }, function () {
+                $(this).removeClass("hover").find("img").css("opacity", "0.5");
+            });
+            $("ul.nav li").each(function (index, item) {
+                $(item).hover(function () {
+                    $(this).find("ul.dropdown-menu").css("display", "block");
+                }, function () {
+                    $(this).find("ul.dropdown-menu").css("display", "none");
+                });
+            });
+
+            function getText(str){
+                var hanzi = str.replace(/[^\u4e00-\u9fa5]/gi,"");
+                var re = /宋体/gi;
+                var output = hanzi.replace(re, function(sMatch){
+                    return sMatch.replace(/./g,"");
+                });
+
+                return output.length >80 ? output.substring(0,80):output;
+            }
+
+            var SceneryData = @(Html.Raw(ViewBag.SceneryData));
+            var SurveyData = @(Html.Raw(ViewBag.SurveyData));
+
+
+            $(".tag1").html(getText(SurveyData[0].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[1].cat_body_id+'">更多 </a>');
+            $(".tag2").html(getText(SurveyData[1].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[1].cat_body_id+'">更多 </a>');
+            $(".tag3").html(getText(SurveyData[3].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[3].cat_body_id+'">更多 </a>');
+            $(".tag4").html(getText(SurveyData[4].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[4].cat_body_id+'">更多 </a>');
+            $(".tag5").html(getText(SurveyData[5].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[5].cat_body_id+'">更多 </a>');
+            $(".tag6").html(getText(SurveyData[6].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[6].cat_body_id+'">更多 </a>');
+            $(".tag7").html(getText(SurveyData[7].cat_body_content)+'<a style="color:#ffffff;background:#029274;position:absolute;right:0px;bottom:0px;width:60px;border:1px solid #aaa;margin:10px;"  href="@(staticUrl)Article/Article/'+SurveyData[7].cat_body_id+'">更多 </a>');
+
+            $(".item1").attr("href","@(staticUrl)Article/Article/"+SceneryData[1].cat_body_id);
+            $(".item2").attr("href","@(staticUrl)Article/Article/"+SceneryData[2].cat_body_id);
+            $(".item3").attr("href","@(staticUrl)Article/Article/"+SceneryData[3].cat_body_id);
+            $(".item4").attr("href","@(staticUrl)Article/Article/"+SceneryData[4].cat_body_id);
+            $(".item5").attr("href","@(staticUrl)Article/Article/"+SceneryData[5].cat_body_id);
+            $(".item6").attr("href","@(staticUrl)Article/Article/"+SceneryData[6].cat_body_id);
+            $(".item7").attr("href","@(staticUrl)Article/Article/"+SceneryData[7].cat_body_id);
+            $(".item8").attr("href","@(staticUrl)Article/Article/"+SceneryData[8].cat_body_id);
+            $(".item9").attr("href","@(staticUrl)Article/Article/"+SceneryData[9].cat_body_id);
+            $(".item10").attr("href","@(staticUrl)Article/Article/"+SceneryData[10].cat_body_id);
+
+
+
+        });
+    </script>
+}
+
+
+
